@@ -25,7 +25,6 @@ const Home = ({navigation}) => {
         };
       });
       setSearches(myArr);
-      console.log('myAsddsdsdsrr', myArr);
       return responseJson.movies;
     } catch (error) {
       console.error(error);
