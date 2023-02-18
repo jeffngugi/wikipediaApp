@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "935093331807",
+    "project_id": "wikiapp-1973e",
+    "storage_bucket": "wikiapp-1973e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:935093331807:android:e70b03b5d97554cdabb8ea",
+        "android_client_info": {
+          "package_name": "com.wikipediaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "935093331807-udhqa55lpu059icgb8kckmr0sf2hif23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoIIW7cN8TN5Tb2suupes2ggKBXhfoWnA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "935093331807-udhqa55lpu059icgb8kckmr0sf2hif23.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

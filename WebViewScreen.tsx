@@ -1,21 +1,12 @@
-import {StyleSheet, View} from 'react-native';
+import {Text, View} from 'react-native';
 import React from 'react';
-import WebView from 'react-native-webview';
 
-const WebViewScreen = ({route}) => {
-  const {item} = route.params;
+const WebViewScreen = () => {
   return (
-    // eslint-disable-next-line react-native/no-inline-styles
-    <View style={{flex: 1}}>
-      <WebView source={{uri: item.url}} containerStyle={styles.webView} />
+    <View>
+      <Text>WebViewScreen</Text>
     </View>
   );
 };
 
 export default WebViewScreen;
-
-const styles = StyleSheet.create({
-  webView: {
-    flex: 1,
-  },
-});
